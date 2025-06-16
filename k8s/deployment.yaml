@@ -41,7 +41,7 @@ spec:
             secretKeyRef:
               key: password
               name: infinispan-generated-secret
-        image: image-registry.openshift-image-registry.svc:5000/quinoa-wind-turbine/quinoa-wind-turbine
+        image: quay.io/julien_peynot/quinoa-wind-turbine:latest
         imagePullPolicy: IfNotPresent
         name: quinoa-wind-turbine
         ports:

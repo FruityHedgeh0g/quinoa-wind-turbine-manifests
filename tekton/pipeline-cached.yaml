@@ -63,7 +63,7 @@ spec:
         - name: PROXY_PROTOCOL
           value: http
         - name: CONTEXT_DIR
-          value: .
+          value: ./quinoa-wind-turbine
         - name: MAVEN_IMAGE
           value: 'maven:3.8.6-openjdk-18'
       runAfter:
